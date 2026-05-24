@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', message: 'API ARKENSTONE en ligne' });
+  res.json({ statut: 'ok', message: 'API ARKENSTONE en ligne' });
 });
 
 const PORT = process.env.PORT || 3000;
